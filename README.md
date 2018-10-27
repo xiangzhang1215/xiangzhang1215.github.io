@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to my homepage
 
-You can use the [editor on GitHub](https://github.com/xiangzhang1215/xiangzhang1215.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hi, I am Xiang Zhang, a senior student in Department of Precision Machinery and Instrumentation, [School of Engineering Science](https://http://en.ses.ustc.edu.cn/), at [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Currently, I am a senior research assistant in [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html), supervised by Prof. Dong Sheng.
 
 ### Markdown
 
