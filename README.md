@@ -8,9 +8,22 @@ As a self-motivated student, my rank is 1st out of 60 students in my department 
 
 ## Research Experience
 
-#### Atomic Devices Lab
+### Atomic Devices Lab
 
-I joined [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html) in 2017. In the past two years, I participated in two 
+I joined [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html) in 2017. In the past two years, I participated in two projects of this lab, which are a Miniaturized Optically-pumped Magnetometer and Data Analysis of GNOME Experiment.
+
+#### Project I: A Miniaturized Optically-pumped Magnetometer
+
+##### Background
+
+##### Shape Design and Manufacture
+
+In this project, we try to build a miniaturized optically-pumped magnrtometer by reducing the size of optical path and using customized small-sized lenses. However, this task is challenging because the distance between the lenses need to be more accurate than common optically-pumped magnrtometers, which requires a thoughful design of the shape and a precise way to fabricate it.
+
+I designed the 3D structure of the magnetometer by SolidWorks and used 3D printing to bring it from design to reality. With a size of 20mm*20mm*25mm, it contains all the lenses, a cubic cell filled with Rb and K, a flexible resistive foil heater for the cell and a PCB to turn light signal to electrical signal. Here are photos of the design and the 3D printed magnetometer.
+
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
