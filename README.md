@@ -6,7 +6,7 @@ Currently, I am a senior research assistant in [Laser Laboratory for Trace Analy
 
 As a self-motivated student, my rank is 1st out of 60 students in my department with a GPA of 3.91/4.3 and won the GuoMoruo Scholarship which is the highest honor awarded to most excellent undergraduates at USTC.
 
-### Research Experience
+## Research Experience
 
 #### Atomic Devices Lab
 
