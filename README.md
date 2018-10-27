@@ -2,7 +2,7 @@
 
 Hi, I am Xiang Zhang, a senior student in Department of Precision Machinery and Instrumentation, [School of Engineering Science](https://http://en.ses.ustc.edu.cn/), at [University of Science and Technology of China (USTC)](https://www.ustc.edu.cn/).
 
-Currently, I am a senior research assistant in [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html), supervised by Prof. Dong Sheng.
+Currently, I am a senior research assistant in [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html), supervised by [Prof. Dong Sheng](http://atta.ustc.edu.cn/en-us/members/faculty/dsheng.html).
 
 ### Markdown
 
