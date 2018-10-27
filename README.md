@@ -4,7 +4,13 @@ Hi, I am Xiang Zhang, a senior student in Department of Precision Machinery and 
 
 Currently, I am a senior research assistant in [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html), supervised by [Prof. Dong Sheng](http://atta.ustc.edu.cn/en-us/members/faculty/dsheng.html).
 
-### Markdown
+As a self-motivated student, my rank is 1st out of 60 students in my department with a GPA of 3.91/4.3 and won the GuoMoruo Scholarship which is the highest honor awarded to most excellent undergraduates at USTC.
+
+### Research Experience
+
+#### Atomic Devices Lab
+
+I joined [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html) in 2017. In the past two years, I participated in two 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
