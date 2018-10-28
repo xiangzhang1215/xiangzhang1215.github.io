@@ -24,9 +24,11 @@ I designed the 3D structure of the magnetometer by SolidWorks and used 3D printi
 
 <div align=center>![3D structure](http://m.qpic.cn/psb?/V12VczHP0k2BU4/sBDzNjTV6e8x.AGWyEa28NHl9hTR3orW7NpZ87.hIOA!/b/dDcBAAAAAAAA&bo=wwTLAgAAAAARBz4!&rf=viewer_4) 
 FIG. 1. 3D Structure
+</div>
 
 <div align=center>![3D printing](http://m.qpic.cn/psb?/V12VczHP0k2BU4/Qjvx98MxD.52iremOkTIFZ2CwaNOfT9HyS3PdXjmq9I!/b/dEYBAAAAAAAA&bo=OgKAAQAAAAARB4k!&rf=viewer_4)
 FIG. 2. 3D Printng
+</div>
 
 ##### Signal Processing Circuit
 
@@ -34,12 +36,15 @@ Electrical signal we get form PCB contains information about the magnetic field,
 
 <div align=center>![circuit design](http://m.qpic.cn/psb?/V12VczHP0k2BU4/hwKczpLzAx4FMGyZAdZVC1jP5LNxIAy0KBPc7aaTHSI!/b/dDcBAAAAAAAA&bo=OgPIAAAAAAADF8M!&rf=viewer_4)
 FIG. 3. circuit design
+</div>
 
 <div align=center>![PCB of Lock-in amplifer](http://m.qpic.cn/psb?/V12VczHP0k2BU4/Vmw.6kdj.p1tcCOmPSHnY6Ki1e.otwGnP40fXccrw2I!/b/dFMBAAAAAAAA&bo=OQKrAQAAAAARF7E!&rf=viewer_4)
 FIG. 4. PCB of Lock-in amplifer
+</div>
 
 <div align=center>![PCB of Lock-in amplifer](http://m.qpic.cn/psb?/V12VczHP0k2BU4/F1hScvA69*UJj5ngUfQeXTmEpL2Y0rOebv4nBh5xiMo!/b/dFIBAAAAAAAA&bo=NQKrAQAAAAARF70!&rf=viewer_4)
 FIG. 5. PCB of PID
+</div>
 
 ##### Flexible Resistive Foil Heater With Magnetic Field Suppression
 
@@ -47,3 +52,4 @@ While our magnetometer is working, the cubic cell filled with Rb and K need to b
 
 <div align=center>![heater](http://m.qpic.cn/psb?/V12VczHP0k2BU4/NmoLPb97dNuOhHRVxeFN6mXXUcSuxo83BWN*mWVcdVA!/b/dAgBAAAAAAAA&bo=aQLHAgAAAAADR8w!&rf=viewer_4)
 FIG. 6. flexible resistive foil heater
+</div>
