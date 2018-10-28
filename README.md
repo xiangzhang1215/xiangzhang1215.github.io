@@ -22,7 +22,7 @@ In this project, we try to build a miniaturized optically-pumped magnrtometer by
 
 I designed the 3D structure of the magnetometer by SolidWorks and used 3D printing to bring it from design to reality. With a size of 20mm*20mm*25mm, it contains all the lenses, a cubic cell filled with Rb and K, a flexible resistive foil heater for the cell and a PCB to turn light signal to electrical signal. Here are photos of the design and the 3D printed magnetometer.
 
-<div align=center>![3D structure](http://m.qpic.cn/psb?/V12VczHP0k2BU4/sBDzNjTV6e8x.AGWyEa28NHl9hTR3orW7NpZ87.hIOA!/b/dDcBAAAAAAAA&bo=wwTLAgAAAAARBz4!&rf=viewer_4) 
+<div align=center>![3D structure](/pics/3D Print.JPG) 
 FIG. 1. 3D Structure
 </div>
 
