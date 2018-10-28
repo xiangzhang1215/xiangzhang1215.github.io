@@ -22,38 +22,28 @@ In this project, we try to build a miniaturized optically-pumped magnrtometer by
 
 I designed the 3D structure of the magnetometer by SolidWorks and used 3D printing to bring it from design to reality. With a size of 20mm*20mm*25mm, it contains all the lenses, a cubic cell filled with Rb and K, a flexible resistive foil heater for the cell and a PCB to turn light signal to electrical signal. Here are photos of the design and the 3D printed magnetometer.
 
-![3D structure](http://m.qpic.cn/psb?/V12VczHP0k2BU4/sBDzNjTV6e8x.AGWyEa28NHl9hTR3orW7NpZ87.hIOA!/b/dDcBAAAAAAAA&bo=wwTLAgAAAAARBz4!&rf=viewer_4) 
+<div align=center>![3D structure](http://m.qpic.cn/psb?/V12VczHP0k2BU4/sBDzNjTV6e8x.AGWyEa28NHl9hTR3orW7NpZ87.hIOA!/b/dDcBAAAAAAAA&bo=wwTLAgAAAAARBz4!&rf=viewer_4) 
+FIG. 1. 3D Structure
 
-![3D printing](http://m.qpic.cn/psb?/V12VczHP0k2BU4/Qjvx98MxD.52iremOkTIFZ2CwaNOfT9HyS3PdXjmq9I!/b/dEYBAAAAAAAA&bo=OgKAAQAAAAARB4k!&rf=viewer_4)
+<div align=center>![3D printing](http://m.qpic.cn/psb?/V12VczHP0k2BU4/Qjvx98MxD.52iremOkTIFZ2CwaNOfT9HyS3PdXjmq9I!/b/dEYBAAAAAAAA&bo=OgKAAQAAAAARB4k!&rf=viewer_4)
+FIG. 2. 3D Printng
 
+##### Signal Processing Circuit
 
+Electrical signal we get form PCB contains information about the magnetic field, so we use a signal processing circuit to decouple the signal and feed it back to a Helmholtz coil to generate a low magnetic field required by our magnetometer.  In order to do so, I developed a schematic diagram including a lock-in amplifier and a PID. Then I designed the PCB by KiCad. Here are photos of our circuit design and PCB.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div align=center>![circuit design](http://m.qpic.cn/psb?/V12VczHP0k2BU4/hwKczpLzAx4FMGyZAdZVC1jP5LNxIAy0KBPc7aaTHSI!/b/dDcBAAAAAAAA&bo=OgPIAAAAAAADF8M!&rf=viewer_4)
+FIG. 3. circuit design
 
-```markdown
-Syntax highlighted code block
+<div align=center>![PCB of Lock-in amplifer](http://m.qpic.cn/psb?/V12VczHP0k2BU4/Vmw.6kdj.p1tcCOmPSHnY6Ki1e.otwGnP40fXccrw2I!/b/dFMBAAAAAAAA&bo=OQKrAQAAAAARF7E!&rf=viewer_4)
+FIG. 4. PCB of Lock-in amplifer
 
-# Header 1
-## Header 2
-### Header 3
+<div align=center>![PCB of Lock-in amplifer](http://m.qpic.cn/psb?/V12VczHP0k2BU4/F1hScvA69*UJj5ngUfQeXTmEpL2Y0rOebv4nBh5xiMo!/b/dFIBAAAAAAAA&bo=NQKrAQAAAAARF70!&rf=viewer_4)
+FIG. 5. PCB of PID
 
-- Bulleted
-- List
+##### Flexible Resistive Foil Heater With Magnetic Field Suppression
 
-1. Numbered
-2. List
+While our magnetometer is working, the cubic cell filled with Rb and K need to be heated to 150°C. Of course, there are many ways to heat up it, but what we need is a heater which is small, flexible, at the same time, with magnetic field suppression because the space of the magnetometer is limited and the magnetic field the heater generated will interfer with the detection of the magnetic field. In order to solve this problem, I developed a flexible resistive foil heater. It is flexible because it is manufured by FPC technology and it suppresses the magnetic field by making current go back and forth and using alternating current to power it. Here is a photo of heater.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xiangzhang1215/xiangzhang1215.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div align=center>![heater](http://m.qpic.cn/psb?/V12VczHP0k2BU4/NmoLPb97dNuOhHRVxeFN6mXXUcSuxo83BWN*mWVcdVA!/b/dAgBAAAAAAAA&bo=aQLHAgAAAAADR8w!&rf=viewer_4)
+FIG. 6. flexible resistive foil heater
