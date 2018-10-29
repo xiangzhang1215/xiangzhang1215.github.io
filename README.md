@@ -8,7 +8,7 @@ As a self-motivated student, my rank is 1st out of 60 students in my department 
 
 ## Research Experience
 
-#### Atomic Devices Lab
+### Atomic Devices Lab
 
 I joined [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html) in 2017. In the past two years, I participated in two projects of this lab, which are a Miniaturized Optically-pumped Magnetometer and Data Analysis of GNOME Experiment.
 
@@ -95,7 +95,7 @@ The Excess Power method is designed to detect burst signals of unknown waveform.
 
 FIG. 12.  trigger map
 
-#### Simulation of Electric Field Based on Mathematica
+### Simulation of Electric Field Based on Mathematica
 
 In December 2016, I participated in the Essay Competition held by  Electromagnetism teaching-research group of USTC as a sophomore.  Supervised by Prof. Xia Sun, I developed a Mathematica program to calculate the electric field of any distribution of point charge based on Maxwell's equations and drew some gif images to show the changing electric field in three dimensions.
 
@@ -111,7 +111,7 @@ GIF. 2.  A  electric quadrupole with one changing its charge amount
 
 ## Activities
 
-#### International Summer Design Experience in OSU
+### International Summer Design Experience in OSU
 
 In the summer of 2018, I went to [the Ohio State University (OSU)](https://www.osu.edu/) to participate [the International Summer Design Experience](https://bme.osu.edu/bme-summer-design-experience) held by [Department of Biomedical Engineering](https://bme.osu.edu/) of OSU. 
 
