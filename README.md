@@ -12,21 +12,21 @@ As a self-motivated student, my rank is 1st out of 60 students in my department 
 
 I joined [Laser Laboratory for Trace Analysis and Precision Measurements](http://atta.ustc.edu.cn/en-us/index.html) in 2017. In the past two years, I participated in two projects of this lab, which are a Miniaturized Optically-pumped Magnetometer and Data Analysis of GNOME Experiment.
 
-#### Project I: A Miniaturized Optically-pumped Magnetometer
+### Project I: A Miniaturized Optically-pumped Magnetometer
 
-##### Shape Design and Manufacture
+#### Shape Design and Manufacture
 
-In this project, we try to build a miniaturized optically-pumped magnrtometer by reducing the size of optical path and using customized small-sized lenses. However, this task is challenging because the distance between the lenses need to be more accurate than common optically-pumped magnrtometers, which requires a thoughful design of the shape and a precise way to fabricate it.
+In this project, we try to build a miniaturized optically-pumped magnetometer by reducing the size of optical path and using customized small-sized lenses. However, this task is challenging because the distance between the lenses need to be more accurate than common optically-pumped magnetometers, which requires a thoughtful design of the shape and a precise way to fabricate it.
 
 I designed the 3D structure of the magnetometer by SolidWorks and used 3D printing to bring it from design to reality. With a size of 20mm*20mm*25mm, it contains all the lenses, a cubic cell filled with Rb and K, a flexible resistive foil heater for the cell and a PCB to turn light signal to electrical signal. Here are photos of the design and the 3D printed magnetometer.
 
 ![3D structure](http://m.qpic.cn/psb?/V12VczHP0k2BU4/sBDzNjTV6e8x.AGWyEa28NHl9hTR3orW7NpZ87.hIOA!/b/dDcBAAAAAAAA&bo=wwTLAgAAAAARFy4!&rf=viewer_4) 
 FIG. 1. 3D Structure
 
-![3D printing](http://m.qpic.cn/psb?/V12VczHP0k2BU4/Qjvx98MxD.52iremOkTIFZ2CwaNOfT9HyS3PdXjmq9I!/b/dEYBAAAAAAAA&bo=OgKAAQAAAAARB4k!&rf=viewer_4)
-FIG. 2. 3D Printng
+![3D printing](http://m.qpic.cn/psb?/V12VczHP0k2BU4/ydZnNYSX2xt4FD4D2gnwqQaCwuHjmk4G17jvNz7R5dU!/b/dFQBAAAAAAAA&bo=oAU4BAAAAAARB6k!&rf=viewer_4)
+FIG. 2. 3D Printing under heating test
 
-##### Signal Processing Circuit
+#### Signal Processing Circuit
 
 Electrical signal we get form PCB contains information about the magnetic field, so we use a signal processing circuit to decouple the signal and feed it back to a Helmholtz coil to generate a low magnetic field required by our magnetometer.  In order to do so, I developed a schematic diagram including a lock-in amplifier and a PID. Then I designed the PCB by KiCad. Here are photos of our circuit design and PCB.
 
@@ -34,23 +34,23 @@ Electrical signal we get form PCB contains information about the magnetic field,
 FIG. 3. circuit design
 
 ![PCB of Lock-in amplifer](http://m.qpic.cn/psb?/V12VczHP0k2BU4/Vmw.6kdj.p1tcCOmPSHnY6Ki1e.otwGnP40fXccrw2I!/b/dFMBAAAAAAAA&bo=OQKrAQAAAAARF7E!&rf=viewer_4)
-FIG. 4. PCB of Lock-in amplifer
+FIG. 4. PCB of Lock-in amplifier
 
 ![PCB of Lock-in amplifer](http://m.qpic.cn/psb?/V12VczHP0k2BU4/F1hScvA69*UJj5ngUfQeXTmEpL2Y0rOebv4nBh5xiMo!/b/dFIBAAAAAAAA&bo=NQKrAQAAAAARF70!&rf=viewer_4)
 FIG. 5. PCB of PID
 
-##### Flexible Resistive Foil Heater With Magnetic Field Suppression
+#### Flexible Resistive Foil Heater With Magnetic Field Suppression
 
-While our magnetometer is working, the cubic cell filled with Rb and K need to be heated to 150°C. Of course, there are many ways to heat up it, but what we need is a heater which is small, flexible, at the same time, with magnetic field suppression because the space of the magnetometer is limited and the magnetic field the heater generated will interfer with the detection of the magnetic field. 
+While our magnetometer is working, the cubic cell filled with Rb and K need to be heated to 150°C. Of course, there are many ways to heat up it, but what we need is a heater which is small, flexible, at the same time, with magnetic field suppression because the space of the magnetometer is limited and the magnetic field the heater generated will interfere with the detection of the magnetic field. 
 
-In order to solve this problem, I developed a flexible resistive foil heater. It is flexible because it is manufured by FPC technology and it suppresses the magnetic field by making current go back and forth and using alternating current to power it. Here is a photo of heater.
+In order to solve this problem, I developed a flexible resistive foil heater. It is flexible because it is manufactured by FPC technology and it suppresses the magnetic field by making current go back and forth and using alternating current to power it. Here is a photo of heater.
 
 ![heater](http://m.qpic.cn/psb?/V12VczHP0k2BU4/NmoLPb97dNuOhHRVxeFN6mXXUcSuxo83BWN*mWVcdVA!/b/dAgBAAAAAAAA&bo=aQLHAgAAAAADR8w!&rf=viewer_4)
 FIG. 6. flexible resistive foil heater
 
-#### Project II: GNOME Data Analysis
+### Project II: GNOME Data Analysis
 
-##### Background
+#### Background
 [Global Network of Optical Magnetometers for Exotic physics](https://budker.uni-mainz.de/gnome/) is an international collaboration searching for transient events caused by dark matter and dark energy. Our lab is one of the stations of GNOME and providing data for GNOME. 
 
  In January 2018, I joined GNOME Data analysis group and analyzed the data of the science run in December 2017 using the methods such as the Power Spectral Density, FFT, Continuous Wavelet Transform (CWT), Allan Deviation and the Excess Power method.
@@ -59,7 +59,7 @@ FIG. 6. flexible resistive foil heater
 
 FIG. 7. The GNOME Experiment
 
-##### Time Series and Frequency Series
+#### Time Series and Frequency Series
 
 Most of the data collected by stations are noise, and the signals may be submerged in noise. Therefore, the purpose of data analysis is to analyze the experimental data of GNOME and search for signals from noise. 
 
@@ -77,7 +77,7 @@ FIG. 9. power spectrogram
 
 FIG. 10. Scalogram
 
-##### Allan Variance
+#### Allan Variance
 
 [The Allan variance](https://en.wikipedia.org/wiki/Allan_variance) is a way to measure the frequency stability in clocks, oscillators and amplifiers. In general, when the average time increases, a station's Allan variance value drop at the start because the average on time limited the short-time uncertainties and then rise because of the influence of time drift. When variance reachs the minimum, the average time is the most stable time of the magnetometer.
 
@@ -87,9 +87,9 @@ FIG. 10. Scalogram
 
 FIG. 11.  Allan standard deviation
 
-##### Excess Power Search
+#### Excess Power Search
 
-The Excess Power methodis designed to detect burst signals of unknown waveform. Its idea is that if there is no signal in the data, what we detected is noise which obeys some kinds of distribution and if signal is in the data, what we detected no longer obeys the distribution. So we can tell whether there are signals in the data by testing the data in time and frequency domain and if there is more power than we expected, we would call it excess power and know that there are signals in the data. Here is a trigger map of USTC station which shows the time and frequency of the signal.
+The Excess Power method is designed to detect burst signals of unknown waveform. Its idea is that if there is no signal in the data, what we detected is noise which obeys some kinds of distribution and if signal is in the data, what we detected no longer obeys the distribution. So we can tell whether there are signals in the data by testing the data in time and frequency domain and if there is more power than we expected, we would call it excess power and know that there are signals in the data. Here is a trigger map of USTC station which shows the time and frequency of the signal.
 
 ![GNOME](http://m.qpic.cn/psb?/V12VczHP0k2BU4/EuZbQKzQDxXc.poCzmESdQ9hnJvIad0mwAaTpZKb0*w!/b/dFQBAAAAAAAA&bo=cAg4BAAAAAADN1Y!&rf=viewer_4)
 
